@@ -1,0 +1,157 @@
+@font-face {
+    font-family: SFProdisplay-regular;
+    src: url(../Font/SFPRODISPLAYREGULAR.OTF);
+}
+@font-face {
+    font-family: SFProdisplay-medium;
+    src: url(../Font/SFPRODISPLAYMEDIUM.OTF);
+}
+@font-face {
+    font-family: SFProdisplay-bold;
+    src: url(../Font/SFPRODISPLAYBOLD.OTF);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/* ============== NavBar Design ================== */
+
+.nav-bar p{
+    font-family: "SFProdisplay-bold";
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/* ============= Home Design ================== */
+
+.home-bg{
+    background-image: url(../Images/bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.home-bg h1{
+    font-family: "SFProdisplay-bold";
+    letter-spacing: 2px;
+}
+.home-bg p{
+    font-family: "SFProdisplay-regular";
+    letter-spacing: 2px;
+}
+.home-bg button{
+    outline: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    background-color: #736C54;
+    font-family: "SFProdisplay-bold";
+    color: #FFFFFF;
+    width: 175px;
+}
+.home-bg img{
+    width: 180px;
+}
+
+/* ================= About Design ===================== */
+.about-bg{
+    background-image: url(../Images/ab-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 220px;
+}
+
+/* ================ Essential Design ================ */
+.essen h1{
+    font-family: "SFProdisplay-bold";
+    color: #473D2F;
+}
+.essen h2{
+    font-family: "SFProdisplay-bold";
+    color: #7E6C54;
+}
+.essen h5{
+    font-family: "SFProdisplay-bold";
+    color: #342D23;
+}
+.essen p{
+    font-family: "SFProdisplay-regular";
+    color: #342D23;
+}
+
+/* ================ Explore Design ================= */
+.explore-bg{
+    background-image: url(../Images/export-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.explore-bg h1{
+    font-family: "SFProdisplay-bold";
+    color: #FFFFFF;
+    text-align: center;
+}
+.feature-text{
+    width: 385px;
+    top: 214px;
+}
+.feature-text h4,
+.nearby-text h4,
+.friend-text h4{
+    font-family: "SFProdisplay-medium";
+ 
+}
+.feature-text h4 span,
+.nearby-text h4 span,
+.friend-text h4 span{
+    border-bottom: 3px solid #f0ad4e;
+    font-family: "SFProdisplay-bold";
+}
+.nearby-text{
+    bottom: 310px;
+    width: 396px;
+}
+.friend-text{
+    right: 0;
+    top: 413px;
+    width: 378px;
+}
+.disc-text h1,
+.disc-text h2{
+    font-family: "SFProdisplay-bold";
+    color: #221F1F;
+}
+.disc-text p{
+    font-family: "SFProdisplay-medium";
+    color: #988265;
+}
+.disc-text small{
+    font-family: "SFProdisplay-regular";
+    color: #655F5F;
+}
+
+
+/* =================== Started Design ======================= */
+.start-bg{
+    background-color: #EEEAE5;
+}
+.start-bg h3{
+    font-family: "SFProdisplay-bold";
+    color: #221F1F;
+}
+.start-bg h5{
+    font-family: "SFProdisplay-regular";
+    color: #988265;
+}
+.start-bg h5 span{
+    color: #221F1F;
+}
+.start-bg p{
+    font-family: "SFProdisplay-regular";
+    color: #988265;
+}
