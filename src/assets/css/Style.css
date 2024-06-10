@@ -10,6 +10,18 @@
     font-family: SFProdisplay-bold;
     src: url(../Font/SFPRODISPLAYBOLD.OTF);
 }
+@font-face {
+    font-family: Madetommy-bold;
+    src: url(../Font/made_tommy_soft/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: Madetommy-medium;
+    src: url(../Font/made_tommy_soft/MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: Madetommy-regular;
+    src: url(../Font/made_tommy_soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
+}
 
 *{
     margin: 0;
@@ -25,7 +37,7 @@ body{
 /* ============== NavBar Design ================== */
 
 .nav-bar p{
-    font-family: "SFProdisplay-bold";
+    font-family: "SFProdisplay-medium";
     font-size: 18px;
     cursor: pointer;
 }
@@ -66,6 +78,13 @@ body{
     background-repeat: no-repeat;
     background-position-y: 220px;
 }
+.about-bg h3{
+    font-family: "Madetommy-medium";
+}
+.about-bg p{
+    font-family: "Madetommy-regular";
+    color: #655F5F;
+}
 
 /* ================ Essential Design ================ */
 .essen h1{
@@ -77,11 +96,11 @@ body{
     color: #7E6C54;
 }
 .essen h5{
-    font-family: "SFProdisplay-bold";
+    font-family: "Madetommy-medium";
     color: #342D23;
 }
 .essen p{
-    font-family: "SFProdisplay-regular";
+    font-family: "Madetommy-regular";
     color: #342D23;
 }
 
@@ -92,25 +111,29 @@ body{
     background-repeat: no-repeat;
 }
 .explore-bg h1{
-    font-family: "SFProdisplay-bold";
+    font-family: "Madetommy-bold";
     color: #FFFFFF;
     text-align: center;
+}
+.explore-bg p{
+    font-family: "Madetommy-regular";
+    color: #FFFFFF;
 }
 .feature-text{
     width: 385px;
     top: 214px;
 }
-.feature-text h4,
-.nearby-text h4,
-.friend-text h4{
-    font-family: "SFProdisplay-medium";
+.feature-text h5,
+.nearby-text h5,
+.friend-text h5{
+    font-family: "Madetommy-regular";
  
 }
-.feature-text h4 span,
-.nearby-text h4 span,
-.friend-text h4 span{
+.feature-text h5 span,
+.nearby-text h5 span,
+.friend-text h5 span{
     border-bottom: 3px solid #f0ad4e;
-    font-family: "SFProdisplay-bold";
+    font-family: "Madetommy-medium";
 }
 .nearby-text{
     bottom: 310px;
@@ -121,9 +144,17 @@ body{
     top: 413px;
     width: 378px;
 }
+.nearby-text h2{
+    font-family: "Madetommy-medium";
+}
+.nearby-text p{
+    font-family: "Madetommy-regular";
+}
+
+/* ================= Discover Design ================= */
 .disc-text h1,
 .disc-text h2{
-    font-family: "SFProdisplay-bold";
+    font-family: "Madetommy-medium";
     color: #221F1F;
 }
 .disc-text p{
@@ -131,7 +162,7 @@ body{
     color: #988265;
 }
 .disc-text small{
-    font-family: "SFProdisplay-regular";
+    font-family: "Madetommy-regular";
     color: #655F5F;
 }
 
@@ -141,17 +172,139 @@ body{
     background-color: #EEEAE5;
 }
 .start-bg h3{
-    font-family: "SFProdisplay-bold";
+    font-family: "Madetommy-medium";
     color: #221F1F;
 }
 .start-bg h5{
-    font-family: "SFProdisplay-regular";
+    font-family: "Madetommy-medium";
     color: #988265;
 }
 .start-bg h5 span{
+    font-family: "Madetommy-regular";
     color: #221F1F;
 }
 .start-bg p{
-    font-family: "SFProdisplay-regular";
+    font-family: "Madetommy-regular";
     color: #988265;
+}
+
+/* ================== FAQ'S Design =================== */
+
+.accordian h1{
+    font-family: "SFProdisplay-bold";
+    color: #000000;
+}
+.accordian span{
+    background-color: #EEEAE5;
+    border-radius: 4px;
+    font-family: "SFProdisplay-bold";
+    color: #000000;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+.accordion-button::after{
+    background-image: url(../Images/icons/down.png);
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../Images/icons/Up.png);
+}
+.accordion-item{
+    border: 1px solid #dee2e6;
+   border-radius: 8px;
+}
+.accordion-item .accordion-header .accordion-button{
+    border-top: 1px solid #dee2e6;
+
+}
+.accordion-button{
+    border-radius: 8px;
+}
+.accordion-header{
+    font-family: "SFProdisplay-bold";
+    color: #000000;
+}
+.accordion-button:not(.collapsed){
+    color: #736C54;
+}
+.accordion-body{
+    font-family: "SFProdisplay-regular";
+    color: #000000;
+}
+.accordion-button:not(.collapsed){
+    background-color: transparent;
+    box-shadow: none;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+/* =================== Contact Design ================= */
+.contact{
+    margin-top: 100px;
+}
+.contact h1,
+.contact label{
+    font-family: "Madetommy-medium";
+    color: #000000;
+}
+.contact p{
+    font-family: "Madetommy-regular";
+    color: #655F5F;
+}
+.contact input,
+.contact textarea{
+    outline: none;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 12px;
+    font-family: "SFProdisplay-regular";
+    color: #000000;
+    background-color: #FAFAFA;
+}
+.contact textarea{
+    min-height: 110px;
+}
+.contact button{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #736C54;
+    color: #FFFFFF;
+    padding: 8px;
+}
+
+/* ================= Footer Design =============== */
+.footer-bg{
+    background-image: url(../Images/footer-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.footer-bg p{
+    font-family: "SFProdisplay-regular";
+    color: #472d3F;
+}
+.icons p{
+    font-family: "SFProdisplay-medium";
+    color: #0b0a0a;
+}
+.icons small{
+    font-family: "SFProdisplay-regular";
+    color: #7A7474;
+}
+
+/* ================ Terms Design ================= */
+.terms li{
+    font-family: "SFProdisplay-regular";
+    color: #000000;
+    cursor: pointer;
+}
+.terms .active{
+    font-family: "SFProdisplay-bold";
+}
+.terms h1{
+    font-family: "SFProdisplay-bold";
+}
+.terms small{
+    font-family: "SFProdisplay-regular";
+    color: #434949;
 }

@@ -148,6 +148,7 @@ function Discover() {
 
       <div className="container">
         <div className="row" style={{marginTop: '100px'}}>
+          
           <div className="col-md-6">
             <img src={discover1} className="w-100" />
           </div>

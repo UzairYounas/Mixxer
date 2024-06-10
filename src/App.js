@@ -10,19 +10,25 @@ import Explore from './pages/Explore';
 import Discover from './pages/Discover';
 import Started from './pages/Started';
 import FAQ from './pages/FAQ';
+import Contact from './pages/Contact';
+import Footer from './pages/Footer';
+import TermsTab from './components/TermsTab';
 
 
 function App() {
   return (
-    <div className="bg-white">
-      {/* <Navbar /> */}
+    <div>
+      <Navbar />
       <Home />
       <About />
       <Essential />
       <Explore />
       <Discover />
       <Started />
-      {/* <FAQ /> */}
+      <FAQ />
+      <Contact />
+      <Footer />
+      {/* <TermsTab /> */}
     </div>
   );
 }

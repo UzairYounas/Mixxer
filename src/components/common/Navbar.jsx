@@ -16,7 +16,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className={`navbar ${isScrolled ? "bg-white shadow" : "bg-transparent"} sticky-top py-3`}>
+    <nav className={`nav-bar ${isScrolled ? "bg-white shadow" : "bg-transparent"} fixed-top py-3`}>
       <div className="container d-flex align-items-center justify-content-between">
         <img src={isScrolled ? logo : whitelogo} alt="LOGO" style={{ width: "200px" }} />
         <div className={`d-flex align-items-center gap-4 ${isScrolled ? "text-dark" : "text-white"}`}>

@@ -7,9 +7,8 @@ import playstore from "../assets/Images/playstore.png";
 function Home() {
   return (
     <div className="home-bg">
-      <Navbar />
       <div className="container">
-        <div className="d-flex flex-column gap-4 text-white" style={{marginTop: '90px', paddingBottom: '150px'}}>
+        <div className="d-flex flex-column gap-4 text-white" style={{paddingTop: '162px', paddingBottom: '93px'}}>
           <h1>Ready to amplify your social life?</h1>
           <p className="mb-0">
             Experience the next level of social networking with Mixxer. <br />
@@ -27,3 +26,5 @@ function Home() {
 }
 
 export default Home;
+
+// style={{marginTop: '90px', paddingBottom: '150px'}}
