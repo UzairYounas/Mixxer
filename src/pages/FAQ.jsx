@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 
 function FAQ() {
-  // const [open, setOpen] = useState(0);
   return (
     <div className="container mt-5 mb-5 accordian">
       <h1 className="text-center">Frequently asked questions</h1>

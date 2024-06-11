@@ -1,0 +1,149 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .about-bg img[alt="ABIMG3"],
+  .about-bg img[alt="ABIMG4"] {
+    width: 300px;
+  }
+  .friend-text {
+    width: 330px;
+    top: 357px;
+  }
+}
+@media (max-width: 1024px) {
+  .about-bg img[alt="ABIMG2"] {
+    width: 415px;
+  }
+  .about-bg img[alt="ABIMG3"],
+  .about-bg img[alt="ABIMG4"] {
+    width: 215px;
+  }
+  .friend-text {
+    width: 312px;
+    top: 282px;
+  }
+  .nearby-text {
+    bottom: 237px;
+    width: 330px;
+  }
+  .feature-text {
+    top: 178px;
+  }
+  .disc-text h5 {
+    padding: 0 160px;
+  }
+}
+@media (max-width: 830px) {
+  .about-bg {
+    background-position-y: 115px;
+  }
+  .about-bg p {
+    padding: 0;
+  }
+  .nearby-text {
+    left: 25px;
+    bottom: 190px;
+    width: 341px;
+  }
+  .feature-text {
+    top: 145px;
+    width: 341px;
+    left: 20px;
+  }
+  .friend-text {
+    width: 255px;
+    top: 194px;
+  }
+  .disc-text h5 {
+    padding: 0 70px;
+  }
+  .start-bg img {
+    width: 130px;
+  }
+}
+@media (max-width: 768px) {
+  .about-bg img[alt="ABIMG2"] {
+    width: 365px;
+  }
+  .about-bg img[alt="ABIMG3"],
+  .about-bg img[alt="ABIMG4"] {
+    width: 186px;
+  }
+  .feature-text {
+    width: 280px;
+    top: 110px;
+  }
+  .explore-bg .position-relative {
+    padding-top: 6px !important;
+  }
+  .nearby-text {
+    left: 14px;
+    bottom: 157px;
+    width: 274px;
+  }
+  .feature-text {
+    width: 325px;
+    top: 83px;
+  }
+  .friend-text {
+    width: 230px;
+    top: 125px;
+  }
+  .explore-bg h1 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 767px) {
+  .about-bg {
+    background-image: none;
+  }
+  .contact h1,
+  .contact p{
+    text-align: center;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 665px;
+  }
+}
+
+@media (max-width: 550px) {
+    .start-bg img{
+        width: 100px;
+    }
+    .start-bg h3,
+    .start-bg h5{
+        font-size: 20px;
+    }
+    .marg-img{
+        margin-top: 50px;
+    }
+}
+@media (max-width: 420px) {
+    .start-bg img{
+        width: 75px;
+    }
+    .start-bg h3,
+    .start-bg h5{
+        font-size: 15px;
+    }
+    .start-bg p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 320px) {
+    .start-bg img{
+        width: 55px;
+    }
+    .start-bg h3,
+    .start-bg h5{
+        font-size: 12px;
+    }
+    .start-bg p{
+        font-size: 10px;
+    }
+}

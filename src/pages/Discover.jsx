@@ -135,10 +135,10 @@ function Discover() {
   ];
 
   return (
-    <div className="mt-5  disc-text">
+    <div className="mt-5 disc-text">
       <div className="text-center mb-4">
         <h1 className="pb-3">Seamless Socializing with Mixxer</h1>
-        <h5 style={{color: '#655F5F',padding: '0 295px'}}>
+        <h5>
           Discover the ultimate platform for planning and enjoying small group
           outings with ease. Mixxer offers a suite of features designed to
           enhance your social experiences and keep you connected with friends

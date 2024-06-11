@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../assets/Images/logo.png";
+import logo from "../../assets/Images/logo.png";
 import { FaArrowRight } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
@@ -8,8 +8,8 @@ import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
-import mail from '../assets/Images/icons/mail.svg';
-import line from '../assets/Images/icons/line.svg'
+import mail from '../../assets/Images/icons/mail.svg';
+import line from '../../assets/Images/icons/line.svg'
 
 function Footer() {
   return (
@@ -17,18 +17,18 @@ function Footer() {
       <div className="container" style={{marginTop: '90px'}}>
         <div className="row pb-4" style={{paddingTop: '100px'}}>
 
-          <div className="col-md-4" style={{padding: '0 36px'}}>
+          <div className="col-md-3 mb-4">
             <div className="d-flex flex-column gap-4">
               <img src={logo} alt="LOGO" style={{width: '200px'}} />
               <p>
                 Don't miss out on the latest updates, announcements, and
                 exclusive offers. Connect with us on social media and subscribe.
               </p>
-              <p>© Copyright 2024 All Rights Reserved</p>
+              <p style={{color: '#655F5F'}}>© Copyright 2024 All Rights Reserved</p>
             </div>
           </div>
 
-          <div className="col-md">
+          <div className="col-md mb-lg-none mb-md-none mb-sm-5 mb-5">
             <h4>Useful Links</h4>
             <img src={line} />
             <div className="d-flex flex-column gap-4 mt-4">
@@ -52,7 +52,7 @@ function Footer() {
 
           </div>
 
-          <div className="col-md">
+          <div className="col-md mb-lg-none mb-md-none mb-sm-5 mb-5">
             <h4>Terms & Policies</h4>
             <img src={line} />
             <div className="d-flex flex-column gap-4 mt-4">

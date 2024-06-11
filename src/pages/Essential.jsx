@@ -39,11 +39,10 @@ function Essential() {
           <div className="col-md-6">
             <img src={essential} style={{width: '90%'}}/>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-lg-none mt-md-none mt-sm-5 mt-5">
             <h1 className="mb-5">
               Seamless Socializing, Unforgettable Experiences
             </h1>
-            <h2 className="mb-5">Benefits</h2>
 
             {items.map((val, index) => (
               <div className="d-flex gap-3 mb-4">

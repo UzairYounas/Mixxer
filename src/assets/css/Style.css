@@ -41,6 +41,11 @@ body{
     font-size: 18px;
     cursor: pointer;
 }
+.side-hr{
+    margin: 0;
+    color: #BAB8B8;
+    opacity: 1;
+}
 
 
 /* ============= Home Design ================== */
@@ -84,6 +89,14 @@ body{
 .about-bg p{
     font-family: "Madetommy-regular";
     color: #655F5F;
+    padding-right: 70px;
+}
+.about-bg img[alt= "ABIMG2"]{
+    width: 480px;
+}
+.about-bg img[alt= "ABIMG3"],
+.about-bg img[alt= "ABIMG4"]{
+    width: 350px;
 }
 
 /* ================ Essential Design ================ */
@@ -152,6 +165,10 @@ body{
 }
 
 /* ================= Discover Design ================= */
+.disc-text h5{
+    color: #655F5F;
+    padding: 0 295px;
+}
 .disc-text h1,
 .disc-text h2{
     font-family: "Madetommy-medium";
@@ -171,6 +188,9 @@ body{
 .start-bg{
     background-color: #EEEAE5;
 }
+.start-bg img{
+    width: 180px;
+}
 .start-bg h3{
     font-family: "Madetommy-medium";
     color: #221F1F;
@@ -187,20 +207,23 @@ body{
     font-family: "Madetommy-regular";
     color: #988265;
 }
+.marg-img{
+    margin-top: 110px;
+}
 
 /* ================== FAQ'S Design =================== */
 
 .accordian h1{
-    font-family: "SFProdisplay-bold";
+    font-family: "Madetommy-medium";
     color: #000000;
 }
 .accordian span{
     background-color: #EEEAE5;
     border-radius: 4px;
-    font-family: "SFProdisplay-bold";
+    font-family: "Madetommy-regular";
     color: #000000;
     padding: 5px 10px;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 .accordion-button::after{
     background-image: url(../Images/icons/down.png);
@@ -220,7 +243,7 @@ body{
     border-radius: 8px;
 }
 .accordion-header{
-    font-family: "SFProdisplay-bold";
+    font-family: "Madetommy-regular";
     color: #000000;
 }
 .accordion-button:not(.collapsed){
@@ -257,7 +280,7 @@ body{
     border: 1px solid #dee2e6;
     border-radius: 8px;
     padding: 12px;
-    font-family: "SFProdisplay-regular";
+    font-family: "Madetommy-regular";
     color: #000000;
     background-color: #FAFAFA;
 }
@@ -271,6 +294,7 @@ body{
     background-color: #736C54;
     color: #FFFFFF;
     padding: 8px;
+    transition: all 0.3s ease;
 }
 
 /* ================= Footer Design =============== */
@@ -280,31 +304,41 @@ body{
     background-repeat: no-repeat;
 }
 .footer-bg p{
-    font-family: "SFProdisplay-regular";
+    font-family: "Madetommy-regular";
     color: #472d3F;
 }
 .icons p{
-    font-family: "SFProdisplay-medium";
+    font-family: "Madetommy-regular";
     color: #0b0a0a;
 }
 .icons small{
-    font-family: "SFProdisplay-regular";
+    font-family: "Madetommy-regular";
     color: #7A7474;
 }
 
 /* ================ Terms Design ================= */
 .terms li{
-    font-family: "SFProdisplay-regular";
+    font-family: "Madetommy-regular";
     color: #000000;
     cursor: pointer;
 }
 .terms .active{
-    font-family: "SFProdisplay-bold";
+    font-family: "Madetommy-medium";
 }
 .terms h1{
-    font-family: "SFProdisplay-bold";
+    font-family: "Madetommy-medium";
 }
 .terms small{
-    font-family: "SFProdisplay-regular";
+    font-family: "Madetommy-regular";
     color: #434949;
+}
+.hr-2{
+    width: 24px;
+    border: 1.5px solid #7E6C54;
+    rotate: 90deg;
+    position: relative;
+    top: 30px;
+    left: 188px;
+    opacity: 1;
+    transition: all 0.3s ease;
 }

@@ -18,7 +18,7 @@ function Explore() {
           <h5>
             <span>Featured Mixxers:</span> Curated For You
           </h5>
-          <p className="mb-0 pe-5">
+          <p className="mb-0 pe-lg-5 pe-md-0 pe-sm-0 pe-0">
             Discover popular suggestions tailored to your interests and
             preferences. Explore Mixxers from boosted users and trending
             activities to join exciting and highly-rated gatherings.
@@ -29,7 +29,7 @@ function Explore() {
           <h5>
             <span>Nearby Mixxers:</span> Local Fun
           </h5>
-          <p className="mb-0 pe-5">
+          <p className="mb-0 pe-lg-5 pe-md-0 pe-sm-0 pe-0">
             Find Mixxers happening in your area and connect with local groups.
             Easily locate gatherings close to you and participate in nearby
             activities for a convenient and fun social experience.
@@ -40,7 +40,7 @@ function Explore() {
           <h5>
             <span>Friend Mixxers:</span> Stay in the Loop
           </h5>
-          <p className="mb-0 pe-5">
+          <p className="mb-0 pe-lg-5 pe-md-0 pe-sm-0 pe-0">
             Access Mixxers created by users you are connected with. Keep up with
             your friends’ activities, join their planned outings, and enjoy
             socializing with people you know and trust.

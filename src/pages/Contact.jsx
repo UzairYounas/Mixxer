@@ -11,7 +11,8 @@ function Contact() {
   return (
     <div className="container contact">
       <div className="row">
-        <div className="col-md-6" style={{paddingRight: '50px'}}>
+
+        <div className="col-md-6 pe-lg-5 pe-md-5 pe-sm-none pe-none">
           <h1>Have a question or need any assistance?</h1>
           <p className="mb-5">
             We're here to help! Please fill out the form below, and we'll get
@@ -37,7 +38,7 @@ function Contact() {
         </div>
 
         <div className="col-md-6">
-          <img src={contactimg} alt="CONTACTIMG" className="w-100" />
+          <img src={contactimg} alt="CONTACTIMG" className="w-100 d-lg-block d-md-block d-sm-none d-none" />
         </div>
       </div>
     </div>
