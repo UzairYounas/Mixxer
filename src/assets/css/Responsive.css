@@ -49,20 +49,20 @@
     bottom: 172px;
     width: 254px;
   }
-}
-.feature-text {
-  top: 190px;
-  width: 264px;
-}
-.friend-text {
-  width: 208px;
-  top: 299px;
-}
-.disc-text h5 {
-  padding: 0 70px;
-}
-.start-bg img {
-  width: 130px;
+  .feature-text {
+    top: 190px;
+    width: 264px;
+  }
+  .friend-text {
+    width: 208px;
+    top: 299px;
+  }
+  .disc-text h5 {
+    padding: 0 70px;
+  }
+  .start-bg img {
+    width: 130px;
+  }
 }
 /* @media (min-width: 768px) {
   .container {
@@ -228,8 +228,8 @@
   }
   .explore-bg h1 {
     font-size: 20px;
-}
-.feature-text p,
+  }
+  .feature-text p,
   .nearby-text p,
   .friend-text p {
     font-size: 9px;

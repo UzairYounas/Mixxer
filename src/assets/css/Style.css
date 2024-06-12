@@ -156,8 +156,8 @@ body{
 }
 .friend-text{
     right: 0;
-    top: 560px;
-    width: 335px;
+    top: 598px;
+    width: 326px;
 }
 .nearby-text h2{
     font-family: "Madetommy-medium";
@@ -232,6 +232,7 @@ body{
 }
 .accordion-button:not(.collapsed)::after{
     background-image: url(../Images/icons/Up.png);
+    transform: none !important;
 }
 .accordion-item{
     border: 1px solid #dee2e6;
