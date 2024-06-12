@@ -133,8 +133,9 @@ body{
     color: #FFFFFF;
 }
 .feature-text{
-    width: 385px;
-    top: 214px;
+    left: 23px;
+    width: 429px;
+    top: 371px;
 }
 .feature-text h5,
 .nearby-text h5,
@@ -149,13 +150,14 @@ body{
     font-family: "Madetommy-medium";
 }
 .nearby-text{
-    bottom: 310px;
-    width: 396px;
+    left: 23px;
+    bottom: 288px;
+    width: 432px;
 }
 .friend-text{
     right: 0;
-    top: 413px;
-    width: 378px;
+    top: 560px;
+    width: 335px;
 }
 .nearby-text h2{
     font-family: "Madetommy-medium";
@@ -262,20 +264,21 @@ body{
 }
 
 /* =================== Contact Design ================= */
-.contact{
-    margin-top: 100px;
+.contact-bg{
+    background-image: url(../Images/contact-bg.png);
+    background-size: 100% 100%;
 }
-.contact h1,
-.contact label{
+.contact-bg h1,
+.contact-bg label{
     font-family: "Madetommy-medium";
     color: #000000;
 }
-.contact p{
+.contact-bg p{
     font-family: "Madetommy-regular";
     color: #655F5F;
 }
-.contact input,
-.contact textarea{
+.contact-bg input,
+.contact-bg textarea{
     outline: none;
     border: 1px solid #dee2e6;
     border-radius: 8px;
@@ -284,10 +287,10 @@ body{
     color: #000000;
     background-color: #FAFAFA;
 }
-.contact textarea{
+.contact-bg textarea{
     min-height: 110px;
 }
-.contact button{
+.contact-bg button{
     outline: none;
     border: none;
     border-radius: 20px;

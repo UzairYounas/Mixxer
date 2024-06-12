@@ -1,6 +1,7 @@
 import React from "react";
 
 import exportphone from "../assets/Images/explore-phone.png";
+// import exportsmall from '../assets/Images/explore-phone-small.png'
 
 function Explore() {
   return (
@@ -10,22 +11,22 @@ function Explore() {
         <h1>YOUR GUIDE TO THE HOME PAGE</h1>
         <img
           src={exportphone}
-          className="mx-auto d-block"
-          style={{ width: "80%", paddingTop: "100px" }}
+          className="w-100"
+          style={{paddingTop: "100px" }}
         />
 
-        <div className="d-flex flex-column gap-3 position-absolute feature-text text-white">
+        <div className="d-flex flex-column gap-lg-3 gap-md-3 gap-sm-2 gap-1 position-absolute feature-text text-white">
           <h5>
             <span>Featured Mixxers:</span> Curated For You
           </h5>
-          <p className="mb-0 pe-lg-5 pe-md-0 pe-sm-0 pe-0">
+          <p className="mb-0 pe-lg-4 pe-md-0 pe-sm-0 pe-0">
             Discover popular suggestions tailored to your interests and
             preferences. Explore Mixxers from boosted users and trending
             activities to join exciting and highly-rated gatherings.
           </p>
         </div>
 
-        <div className="d-flex flex-column gap-3 position-absolute nearby-text text-white">
+        <div className="d-flex flex-column gap-lg-3 gap-md-3 gap-sm-2 gap-1 position-absolute nearby-text text-white">
           <h5>
             <span>Nearby Mixxers:</span> Local Fun
           </h5>
@@ -36,11 +37,11 @@ function Explore() {
           </p>
         </div>
 
-        <div className="d-flex flex-column gap-3 position-absolute friend-text text-white">
+        <div className="d-flex flex-column gap-lg-3 gap-md-3 gap-sm-2 gap-1 position-absolute friend-text text-white">
           <h5>
             <span>Friend Mixxers:</span> Stay in the Loop
           </h5>
-          <p className="mb-0 pe-lg-5 pe-md-0 pe-sm-0 pe-0">
+          <p className="mb-0 pe-lg-3 pe-md-0 pe-sm-0 pe-0">
             Access Mixxers created by users you are connected with. Keep up with
             your friends’ activities, join their planned outings, and enjoy
             socializing with people you know and trust.

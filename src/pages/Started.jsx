@@ -25,7 +25,7 @@ function Started() {
             <img src={playstore} />
             <img src={appstore} />
           </div>
-          <p>*our app is the perfect solution for boosting your productivity</p>
+          <p>*Experience the next level of social networking.</p>
         </div>
       </div>
     </div>

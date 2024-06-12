@@ -32,8 +32,8 @@ function Navbar({ handleScroll }) {
             style={{ width: "200px" }}
           />
           <div
-            className={`d-lg-flex d-md-flex d-sm-none d-none align-items-center gap-4 ${
-              isScrolled ? "text-dark" : "text-white"
+            className={`d-lg-flex d-md-flex d-sm-none d-none align-items-center gap-lg-5 gap-md-4 gap-sm-4 gap-4 ${
+              isScrolled ? "text-secondary" : "text-white"
             }`}
           >
             <p className="mb-0" onClick={() => handleScroll("home")}>
@@ -55,7 +55,7 @@ function Navbar({ handleScroll }) {
 
           <FaBars
             className={`d-lg-none d-md-none d-sm-flex d-flex ${
-              isScrolled ? "text-black" : "text-white"
+              isScrolled ? "text-secondary" : "text-white"
             } mt-3 h3`}
             onClick={() => setStatus(true)}
           />
