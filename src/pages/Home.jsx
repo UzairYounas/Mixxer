@@ -3,12 +3,13 @@ import Navbar from "../components/common/Navbar";
 
 import appstore from "../assets/Images/appstore.png";
 import playstore from "../assets/Images/playstore.png";
+import homeimg from '../assets/Images/bg.svg'
 
 function Home() {
   return (
     <div className="home-bg">
       <div className="container">
-        <div className="d-flex flex-column gap-4 text-white" style={{paddingTop: '162px', paddingBottom: '150px'}}>
+        <div className="d-flex flex-column gap-4 text-white" style={{paddingTop: '162px', paddingBottom: '320px'}}>
           <h1>Ready to amplify your social life?</h1>
           <p className="mb-0">
             Experience the next level of social networking with Mixxer. <br />
