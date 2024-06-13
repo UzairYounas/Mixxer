@@ -15,7 +15,7 @@ function About() {
 
               <div className="mt-4">
                 <img src={abimg1} className="w-100 d-lg-block d-md-block d-sm-none d-none" />
-                <div className="d-flex flex-column gap-3 mt-3">
+                <div className="d-flex flex-column gap-3 mt-5">
                   <h3>About Mixxer</h3>
                   <p className="mb-0">
                     Mixxer is a vibrant social app designed to enhance your

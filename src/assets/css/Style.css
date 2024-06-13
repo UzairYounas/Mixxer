@@ -89,14 +89,14 @@ body{
 .about-bg p{
     font-family: "Madetommy-regular";
     color: #655F5F;
-    padding-right: 70px;
+    padding-right: 130px;
 }
 .about-bg img[alt= "ABIMG2"]{
     width: 480px;
 }
 .about-bg img[alt= "ABIMG3"],
 .about-bg img[alt= "ABIMG4"]{
-    width: 350px;
+    width: 300px;
 }
 
 /* ================ Essential Design ================ */
@@ -123,6 +123,12 @@ body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+.explore-bg img{
+    width: 50%;
+    padding-top: 100px;
+    display: block;
+    margin: auto;
+}
 .explore-bg h1{
     font-family: "Madetommy-bold";
     color: #FFFFFF;
@@ -133,9 +139,9 @@ body{
     color: #FFFFFF;
 }
 .feature-text{
-    left: 23px;
-    width: 429px;
-    top: 371px;
+    left: 165px;
+    width: 412px;
+    top: 244px;
 }
 .feature-text h5,
 .nearby-text h5,
@@ -150,14 +156,14 @@ body{
     font-family: "Madetommy-medium";
 }
 .nearby-text{
-    left: 23px;
-    bottom: 288px;
-    width: 432px;
+    left: 195px;
+    bottom: 155px;
+    width: 360px;
 }
 .friend-text{
-    right: 0;
-    top: 598px;
-    width: 326px;
+    right: 60px;
+    top: 361px;
+    width: 415px;
 }
 .nearby-text h2{
     font-family: "Madetommy-medium";
@@ -311,6 +317,14 @@ body{
     font-family: "Madetommy-regular";
     color: #472d3F;
 }
+.footer-bg .text-decoration-none{
+    color: #0b0a0a;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.footer-bg .text-decoration-none:hover{
+    color: #736C54;
+}
 .icons p{
     font-family: "Madetommy-regular";
     color: #0b0a0a;
@@ -345,4 +359,17 @@ body{
     left: 188px;
     opacity: 1;
     transition: all 0.3s ease;
+}
+.term-text p{
+    font-family: "Madetommy-medium";
+    color: #4E4949;
+}
+.term-text small,
+.term-text li{
+    font-family: "Madetommy-regular";
+    color: #4E4949;
+}
+.term-text small span{
+    font-family: "Madetommy-medium";
+    color: #4E4949;
 }

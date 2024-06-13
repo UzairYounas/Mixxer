@@ -9,11 +9,7 @@ function Explore() {
       <div className="p-5 position-relative">
         <h1>MIXXER ESSENTIALS:</h1>
         <h1>YOUR GUIDE TO THE HOME PAGE</h1>
-        <img
-          src={exportphone}
-          className="w-100"
-          style={{paddingTop: "100px" }}
-        />
+        <img src={exportphone} />
 
         <div className="d-flex flex-column gap-lg-3 gap-md-3 gap-sm-2 gap-1 position-absolute feature-text text-white">
           <h5>

@@ -22,17 +22,23 @@
   .about-bg img[alt="ABIMG4"] {
     width: 215px;
   }
+  .explore-bg img{
+    width: 55%;
+  }
   .friend-text {
-    width: 260px;
-    top: 414px;
+    width: 361px;
+    top: 315px;
+    right: 0;
   }
   .nearby-text {
-    bottom: 224px;
-    width: 365px;
+    left: 45px;
+    bottom: 135px;
+    width: 430px;
   }
   .feature-text {
-    top: 280px;
-    width: 335px;
+    top: 205px;
+    width: 390px;
+    left: 50px;
   }
   .disc-text h5 {
     padding: 0 160px;
@@ -45,17 +51,22 @@
   .about-bg p {
     padding: 0;
   }
+  .explore-bg img{
+    width: 70%;
+  }
   .nearby-text {
-    bottom: 172px;
-    width: 254px;
+    bottom: 139px;
+    width: 286px;
+    left: 17px;
   }
   .feature-text {
-    top: 190px;
-    width: 264px;
+    top: 156px;
+    width: 293px;
+    left: 18px;
   }
   .friend-text {
-    width: 208px;
-    top: 299px;
+    width: 241px;
+    top: 242px;
   }
   .disc-text h5 {
     padding: 0 70px;
@@ -78,20 +89,23 @@
   .about-bg img[alt="ABIMG4"] {
     width: 186px;
   }
+  .explore-bg img{
+    width: 80%;
+  }
   .feature-text {
-    width: 245px;
-    top: 110px;
+    width: 260px;
+    top: 86px;
   }
   .explore-bg .position-relative {
     padding-top: 6px !important;
   }
   .nearby-text {
-    left: 14px;
+    bottom: 140px;
     width: 250px;
   }
   .friend-text {
-    width: 206px;
-    top: 227px;
+    width: 224px;
+    top: 189px;
   }
   .explore-bg h1 {
     font-size: 26px;
@@ -115,6 +129,9 @@
   }
 } */
 @media (max-width: 640px) {
+  .explore-bg img{
+    width: 90%;
+  }
   .feature-text p,
   .nearby-text p,
   .friend-text p {
@@ -127,11 +144,11 @@
   }
   .nearby-text {
     width: 220px;
-    bottom: 146px;
+    bottom: 130px;
   }
   .feature-text {
-    width: 211px;
-    top: 94px;
+    width: 225px;
+    top: 101px;
   }
   .friend-text {
     width: 174px;
@@ -166,17 +183,22 @@
   .friend-text h5 {
     font-size: 13px;
   }
+  .explore-bg img{
+    width: 100%;
+  }
   .nearby-text {
     width: 190px;
-    bottom: 123px;
+    bottom: 126px;
+    left: 6px;
   }
   .feature-text {
-    width: 195px;
+    left: 7px;
+    width: 185px;
     top: 117px;
   }
   .friend-text {
-    width: 153px;
-    top: 190px;
+    width: 152px;
+    top: 202px;
   }
 }
 @media (max-width: 420px) {
@@ -193,12 +215,12 @@
   .feature-text p,
   .nearby-text p,
   .friend-text p {
-    font-size: 10px;
+    font-size: 9px;
   }
   .feature-text h5,
   .nearby-text h5,
   .friend-text h5 {
-    font-size: 11px;
+    font-size: 10px;
   }
   .nearby-text {
     width: 163px;
@@ -232,23 +254,23 @@
   .feature-text p,
   .nearby-text p,
   .friend-text p {
-    font-size: 9px;
+    font-size: 7px;
   }
   .feature-text h5,
   .nearby-text h5,
   .friend-text h5 {
-    font-size: 10px;
+    font-size: 8px;
   }
   .nearby-text {
-    width: 150px;
-    bottom: 63px;
+    width: 116px;
+    bottom: 85px;
   }
   .feature-text {
-    width: 144px;
-    top: 110px;
+    width: 116px;
+    top: 139px;
   }
   .friend-text {
     width: 95px;
-    top: 137px;
+    top: 176px;
   }
 }
