@@ -22,7 +22,7 @@
   .about-bg img[alt="ABIMG4"] {
     width: 215px;
   }
-  .explore-bg img{
+  .explore-bg img {
     width: 55%;
   }
   .friend-text {
@@ -51,7 +51,7 @@
   .about-bg p {
     padding: 0;
   }
-  .explore-bg img{
+  .explore-bg img {
     width: 70%;
   }
   .nearby-text {
@@ -89,7 +89,7 @@
   .about-bg img[alt="ABIMG4"] {
     width: 186px;
   }
-  .explore-bg img{
+  .explore-bg img {
     width: 80%;
   }
   .feature-text {
@@ -129,7 +129,7 @@
   }
 } */
 @media (max-width: 640px) {
-  .explore-bg img{
+  .explore-bg img {
     width: 90%;
   }
   .feature-text p,
@@ -183,7 +183,7 @@
   .friend-text h5 {
     font-size: 13px;
   }
-  .explore-bg img{
+  .explore-bg img {
     width: 100%;
   }
   .nearby-text {
@@ -201,7 +201,13 @@
     top: 202px;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 425px) {
+  .nav-bar img[alt="LOGO"] {
+    width: 120px;
+  }
+  .fixed-top img[alt="LOGO"] {
+    width: 120px;
+  }
   .start-bg img {
     width: 75px;
   }

@@ -26,11 +26,7 @@ function Navbar({ handleScroll }) {
         } fixed-top py-3`}
       >
         <div className="container d-flex align-items-center justify-content-between">
-          <img
-            src={isScrolled ? logo : whitelogo}
-            alt="LOGO"
-            style={{ width: "200px" }}
-          />
+          <img src={isScrolled ? logo : whitelogo} alt="LOGO" />
           <div
             className={`d-lg-flex d-md-flex d-sm-none d-none align-items-center gap-lg-5 gap-md-4 gap-sm-4 gap-4 ${
               isScrolled ? "text-secondary" : "text-white"
@@ -68,32 +64,67 @@ function Navbar({ handleScroll }) {
           style={{ backgroundColor: "#7E6C54" }}
         >
           <div className="d-flex justify-content-between text-white">
-            <img src={whitelogo} style={{ width: "200px" }} />
+            <img src={whitelogo} alt="LOGO" />
             <IoClose className="h2" onClick={() => setStatus(false)} />
           </div>
           <div className="d-flex flex-column">
-            <p onClick={() => { handleScroll("home"); setStatus(false); }}>Home</p>
-            <hr className= "side-hr" />
+            <p
+              onClick={() => {
+                handleScroll("home");
+                setStatus(false);
+              }}
+            >
+              Home
+            </p>
+            <hr className="side-hr" />
           </div>
 
           <div className="d-flex flex-column">
-            <p onClick={() => { handleScroll("feature"); setStatus(false); }}>Features</p>
-            <hr className= "side-hr" />
+            <p
+              onClick={() => {
+                handleScroll("feature");
+                setStatus(false);
+              }}
+            >
+              Features
+            </p>
+            <hr className="side-hr" />
           </div>
 
           <div className="d-flex flex-column">
-            <p onClick={() => { handleScroll("about"); setStatus(false); }}>About</p>
-            <hr className= "side-hr" />
+            <p
+              onClick={() => {
+                handleScroll("about");
+                setStatus(false);
+              }}
+            >
+              About
+            </p>
+            <hr className="side-hr" />
           </div>
 
           <div className="d-flex flex-column">
-            <p onClick={() => { handleScroll("faq"); setStatus(false); }}>FAQ'S</p>
-            <hr className= "side-hr" />
+            <p
+              onClick={() => {
+                handleScroll("faq");
+                setStatus(false);
+              }}
+            >
+              FAQ'S
+            </p>
+            <hr className="side-hr" />
           </div>
 
           <div className="d-flex flex-column">
-            <p onClick={() => { handleScroll("contact"); setStatus(false); }}>Contact</p>
-            <hr className= "side-hr" />
+            <p
+              onClick={() => {
+                handleScroll("contact");
+                setStatus(false);
+              }}
+            >
+              Contact
+            </p>
+            <hr className="side-hr" />
           </div>
         </div>
       ) : (

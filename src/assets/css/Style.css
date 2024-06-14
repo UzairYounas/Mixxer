@@ -41,6 +41,12 @@ body{
     font-size: 18px;
     cursor: pointer;
 }
+.nav-bar img[alt= "LOGO"]{
+    width: 200px;
+}
+.fixed-top img[alt= "LOGO"]{
+    width: 200px;
+}
 .side-hr{
     margin: 0;
     color: #BAB8B8;
@@ -52,8 +58,9 @@ body{
 
 .home-bg{
     background-image: url(../Images/bg.svg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 .home-bg h1{
     font-family: "SFProdisplay-bold";
@@ -356,7 +363,7 @@ body{
     rotate: 90deg;
     position: relative;
     top: 30px;
-    left: 188px;
+    left: 195px;
     opacity: 1;
     transition: all 0.3s ease;
 }

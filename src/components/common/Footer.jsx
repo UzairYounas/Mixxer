@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../../assets/Images/logo.png";
 import {
   FaArrowRight,
@@ -12,11 +12,16 @@ import { RiInstagramFill } from "react-icons/ri";
 import mail from "../../assets/Images/icons/mail.svg";
 import line from "../../assets/Images/icons/line.svg";
 
-function Footer({ setToggleState }) {
+function Footer({ setToggleState, handleScroll }) {
+  const navigate = useNavigate();
+
   const handleClick = (step, toggleState) => {
+    navigate("/terms");
     sessionStorage.setItem("step", step);
     window.scrollTo(0, 0);
-    setToggleState(toggleState);
+    if (setToggleState) {
+      setToggleState(toggleState);
+    }
   };
 
   return (
@@ -39,13 +44,38 @@ function Footer({ setToggleState }) {
           <div className="col-md mb-lg-none mb-md-none mb-sm-5 mb-5">
             <h4>Useful Links</h4>
             <img src={line} alt="line" />
-            <div className="d-flex flex-column gap-4 mt-4">
-              {["Home", "About", "Feature", "FAQ'S"].map((link, index) => (
-                <div key={index} className="d-flex align-items-center gap-3">
-                  <FaArrowRight />
-                  <h5 className="mb-0">{link}</h5>
-                </div>
-              ))}
+            <div className="d-flex text-decoration-none flex-column gap-4 mt-4">
+              <div
+                className="d-flex text-decoration-none align-items-center gap-3"
+                onClick={() => handleScroll("home")}
+              >
+                <FaArrowRight />
+                <h5 className="mb-0">Home</h5>
+              </div>
+
+              <div
+                className="d-flex text-decoration-none align-items-center gap-3"
+                onClick={() => handleScroll("about")}
+              >
+                <FaArrowRight />
+                <h5 className="mb-0">About</h5>
+              </div>
+
+              <div
+                className="d-flex text-decoration-none align-items-center gap-3"
+                onClick={() => handleScroll("feature")}
+              >
+                <FaArrowRight />
+                <h5 className="mb-0">Feature</h5>
+              </div>
+
+              <div
+                className="d-flex text-decoration-none align-items-center gap-3"
+                onClick={() => handleScroll("faq")}
+              >
+                <FaArrowRight />
+                <h5 className="mb-0">FAQ</h5>
+              </div>
             </div>
           </div>
 
@@ -68,14 +98,14 @@ function Footer({ setToggleState }) {
                 <h5 className="mb-0">EULA for Mixxer</h5>
               </div>
               <div
-                onClick={() => handleClick(2, 3)}
+                onClick={() => handleClick(3, 3)}
                 className="d-flex text-decoration-none align-items-center gap-3"
               >
                 <FaArrowRight />
                 <h5 className="mb-0">Privacy Policies</h5>
               </div>
               <div
-                onClick={() => handleClick(2, 4)}
+                onClick={() => handleClick(4, 4)}
                 className="d-flex text-decoration-none align-items-center gap-3"
               >
                 <FaArrowRight />
@@ -102,6 +132,7 @@ function Footer({ setToggleState }) {
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </div>

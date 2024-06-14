@@ -1,9 +1,9 @@
 import React from "react";
 
-import discover1 from "../assets/Images/discover-1.png";
-import discover2 from "../assets/Images/discover-2.png";
-import discover3 from "../assets/Images/discover-3.png";
-import discover4 from "../assets/Images/discover-4.png";
+import discover1 from "../assets/Images/discover-1.svg";
+import discover2 from "../assets/Images/discover-2.svg";
+import discover3 from "../assets/Images/discover-3.svg";
+import discover4 from "../assets/Images/discover-4.svg";
 
 import message from "../assets/Images/icons/message.png";
 import groupmessage from "../assets/Images/icons/groupmessage.png";

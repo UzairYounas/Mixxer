@@ -35,8 +35,8 @@ function TermsTab() {
       <Navbar />
       <div className="container terms">
         <div className="row" style={{ paddingTop: "80px" }}>
-          <div className="col-md-4">
-            <div className="shadow p-3 position-absolute">
+          <div className="col-md-4 d-lg-block d-md-block d-sm-flex d-flex align-items-center justify-content-center">
+            <div className="shadow p-3" style={{width: '225px'}}>
               <hr className="hr-2" style={lineStyle} />
               <ul className="d-flex flex-column gap-4">
                 <li
@@ -66,7 +66,7 @@ function TermsTab() {
               </ul>
             </div>
           </div>
-          <div className="col-md-8">
+          <div className="col-md-8 pt-lg-0 pt-md-0 pt-sm-5 pt-5">
             <div className={toggleState === 1 ? "d-block " : "d-none"}>
               <h1 className="mb-4">TERMS OF SERVICES</h1>
               <div className="term-text d-flex flex-column gap-4">
