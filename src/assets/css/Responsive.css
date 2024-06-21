@@ -280,3 +280,18 @@
     top: 176px;
   }
 }
+
+/* @media (max-width: 2500px) {
+  .feature-text{
+    left: 270px;
+    width: 400px;
+  }
+  .nearby-text{
+    left: 330px;
+    bottom: 180px;
+  }
+  .friend-text{
+    right: 160px;
+    top: 420px;
+  }
+} */

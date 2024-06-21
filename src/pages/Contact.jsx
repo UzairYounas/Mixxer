@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import contactimg from "../assets/Images/contact-img.png";
 function Contact() {
@@ -21,7 +21,7 @@ function Contact() {
 
               <div className="d-flex flex-column gap-1">
                 <label>Email Address</label>
-                <input type="text" placeholder="example@email.com" />
+                <input type="text"  placeholder="example@email.com" />
               </div>
 
               <div className="d-flex flex-column gap-1">
@@ -39,6 +39,7 @@ function Contact() {
               className="w-100 d-lg-block d-md-block d-sm-none d-none"
             />
           </div>
+
         </div>
       </div>
     </div>

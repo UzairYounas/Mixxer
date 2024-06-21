@@ -36,7 +36,7 @@ function TermsTab() {
       <div className="container terms">
         <div className="row" style={{ paddingTop: "80px" }}>
           <div className="col-md-4 d-lg-block d-md-block d-sm-flex d-flex align-items-center justify-content-center">
-            <div className="shadow p-3" style={{width: '225px'}}>
+            <div className="shadow p-3" style={{ width: "225px" }}>
               <hr className="hr-2" style={lineStyle} />
               <ul className="d-flex flex-column gap-4">
                 <li
@@ -145,10 +145,12 @@ function TermsTab() {
               {combinedData.data.map((agree, index) => (
                 <div
                   key={index}
-                  className="d-flex flex-column gap-3 term-text mb-4"
+                  className="d-flex flex-column gap-3 term-text mb-4 mt-3"
                 >
                   <p className="mb-0">{agree.title}</p>
-                  <small>{agree.description}</small>
+                  <small
+                    dangerouslySetInnerHTML={{ __html: agree.description }}
+                  ></small>
                 </div>
               ))}
             </div>
@@ -221,6 +223,8 @@ function TermsTab() {
                     key={index}
                     className="d-flex flex-column gap-3 term-text mb-4"
                   >
+                   
+
                     <p className="mb-0">{privac.title}</p>
                     <small>{privac.description}</small>
                   </div>
@@ -228,7 +232,7 @@ function TermsTab() {
               </div>
             </div>
 
-            <div className={toggleState === 4 ? "d-block " : "d-none"}>
+            <div className={toggleState === 4 ? "d-block " : "d-none"}> 
               <h1>DISCLAIMER FOR MIXXER</h1>
 
               {combinedData.disclaimer.map((disc, index) => (
@@ -243,7 +247,6 @@ function TermsTab() {
                 </div>
               ))}
             </div>
-            
           </div>
         </div>
       </div>
