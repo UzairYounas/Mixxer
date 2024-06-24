@@ -63,12 +63,22 @@ body{
 
 /* ============= Home Design ================== */
 
-.home-bg{
-    background-image: url(../Images/bg.svg);
+/* .home-bg{
+    background-image: url(../Images/bg.png);
+    clip-path: polygon(100% 0, 100% 83%, 35% 100%, 0% 100%, 0 51%, 0% 0%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-}
+} */
+ .home-bg img[alt= "HOME"]{
+    clip-path: polygon(100% 0, 100% 83%, 35% 100%, 0% 100%, 0 51%, 0% 0%);
+    width: 100%;
+    position: absolute;
+ }
+ .home-bg .text-white{
+    padding-top: 150px;
+    padding-bottom: 70px;
+ }
 .home-bg h1{
     font-family: "SFProdisplay-bold";
     letter-spacing: 2px;
@@ -96,6 +106,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 220px;
+    margin-top: 240px;
 }
 .about-bg h3{
     font-family: "Madetommy-medium";
@@ -187,6 +198,9 @@ body{
 }
 
 /* ================= Discover Design ================= */
+.disc-text img{
+    filter: drop-shadow(0 0 20px #abb2c6);
+}
 .disc-text h5{
     color: #655F5F;
     padding: 0 295px;

@@ -23,7 +23,7 @@ function Navbar({ handleScroll }) {
       <nav
         className={`nav-bar ${
           isScrolled ? "bg-white shadow" : "bg-transparent"
-        } fixed-top py-3`}
+        } fixed-top py-lg-3 py-md-2 py-sm-0 py-0`}
       >
         <div className="container d-flex align-items-center justify-content-between">
           <img src={isScrolled ? logo : whitelogo} alt="LOGO" />

@@ -5,25 +5,25 @@ import discover2 from "../assets/Images/discover-2.svg";
 import discover3 from "../assets/Images/discover-3.svg";
 import discover4 from "../assets/Images/discover-4.svg";
 
-import message from "../assets/Images/icons/message.png";
-import groupmessage from "../assets/Images/icons/groupmessage.png";
-import time from "../assets/Images/icons/time.png";
-import share from "../assets/Images/icons/share.png";
+import message from "../assets/Images/icons/message.svg";
+import groupmessage from "../assets/Images/icons/groupmessage.svg";
+import time from "../assets/Images/icons/time.svg";
+import share from "../assets/Images/icons/share.svg";
 
-import detail from "../assets/Images/icons/detail.png";
-import customize from "../assets/Images/icons/customize.png";
-import privacy from "../assets/Images/icons/privacy.png";
-import format from "../assets/Images/icons/format.png";
+import detail from "../assets/Images/icons/detail.svg";
+import customize from "../assets/Images/icons/customize.svg";
+import privacy from "../assets/Images/icons/privacy.svg";
+import format from "../assets/Images/icons/format.svg";
 
-import express from "../assets/Images/icons/express.png";
-import user from "../assets/Images/icons/user.png";
-import friend from "../assets/Images/icons/participant.png";
-import bookmark from "../assets/Images/icons/bookmark.png";
+import express from "../assets/Images/icons/express.svg";
+import user from "../assets/Images/icons/user.svg";
+import friend from "../assets/Images/icons/participant.svg";
+import bookmark from "../assets/Images/icons/bookmark.svg";
 
-import host from "../assets/Images/icons/host.png";
-import notify from "../assets/Images/icons/notify.png";
-import group from "../assets/Images/icons/group.png";
-import update from "../assets/Images/icons/update.png";
+import host from "../assets/Images/icons/host.svg";
+import notify from "../assets/Images/icons/notify.svg";
+import group from "../assets/Images/icons/group.svg";
+import update from "../assets/Images/icons/update.svg";
 
 function Discover() {
   const items = [
@@ -147,12 +147,12 @@ function Discover() {
       </div>
 
       <div className="container">
-        <div className="row" style={{marginTop: '100px'}}>
+        <div className="row" style={{marginTop: '100px', marginBottom: '100px'}}>
           
-          <div className="col-md-6">
-            <img src={discover1} className="w-100" />
+          <div className="col-md-6 mb-5">
+            <img src={discover1} style={{width: '80%'}} />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
             <div className="d-flex flex-column gap-3">
               <h2>Stay Connected with Ease</h2>
               <p>
@@ -169,7 +169,7 @@ function Discover() {
                 <div className="col-md-6 mb-5">
                   <div className="d-flex gap-3">
                     <div className="d-flex flex-column gap-3">
-                      <div className="d-flex gap-2">
+                      <div className="d-flex align-items-center gap-2">
                         <img
                           src={val.img}
                           style={{ width: "30px", height: "30px" }}
@@ -184,7 +184,7 @@ function Discover() {
             </div>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
             <div className="d-flex flex-column gap-3">
               <h2>Plan Your Perfect Mixxer</h2>
               <p>
@@ -200,7 +200,7 @@ function Discover() {
                 <div className="col-md-6 mb-5">
                   <div className="d-flex gap-3">
                     <div className="d-flex flex-column gap-3">
-                      <div className="d-flex gap-2">
+                      <div className="d-flex align-items-center gap-2">
                         <img
                           src={det.img}
                           style={{ width: "30px", height: "30px" }}
@@ -214,14 +214,14 @@ function Discover() {
               ))}
             </div>
           </div>
-          <div className="col-md-6">
-            <img src={discover2} className="w-100" />
+          <div className="col-md-6 mb-5">
+            <img src={discover2} style={{width: '80%'}} />
           </div>
 
-          <div className="col-md-6">
-            <img src={discover3} className="w-100" />
+          <div className="col-md-6 mb-5">
+            <img src={discover3} style={{width: '80%'}} />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
             <div className="d-flex flex-column gap-3">
               <h2>Always in Loop</h2>
               <p>
@@ -237,7 +237,7 @@ function Discover() {
                 <div className="col-md-6 mb-5">
                   <div className="d-flex gap-3">
                     <div className="d-flex flex-column gap-3">
-                      <div className="d-flex gap-2">
+                      <div className="d-flex align-items-center gap-2">
                         <img
                           src={beat.img}
                           style={{ width: "30px", height: "30px" }}
@@ -252,7 +252,7 @@ function Discover() {
             </div>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
             <div className="d-flex flex-column gap-3">
               <h2>Your Social Hub</h2>
               <p>
@@ -267,7 +267,7 @@ function Discover() {
                 <div className="col-md-6 mb-5">
                   <div className="d-flex gap-3">
                     <div className="d-flex flex-column gap-3">
-                      <div className="d-flex gap-2">
+                      <div className="d-flex align-items-center gap-2">
                         <img
                           src={hub.img}
                           style={{ width: "30px", height: "30px" }}
@@ -282,7 +282,7 @@ function Discover() {
             </div>
           </div>
           <div className="col-md-6">
-            <img src={discover4} className="w-100" />
+            <img src={discover4} style={{width: '80%'}} />
           </div>
 
         </div>
