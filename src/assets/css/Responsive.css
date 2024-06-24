@@ -200,6 +200,9 @@
     width: 152px;
     top: 202px;
   }
+  .contact-bg .contact-info{
+    padding-right: 0px;
+}
 }
 @media (max-width: 425px) {
   .nav-bar img[alt="LOGO"] {
@@ -281,17 +284,32 @@
   }
 }
 
-/* @media (max-width: 2500px) {
+@media (min-width: 2560px) {
+  .explore-bg img{
+    width: 40%;
+  }
+  .feature-text p,
+  .nearby-text p,
+  .friend-text p {
+    font-size: 25px;
+  }
+  .feature-text h5,
+  .nearby-text h5,
+  .friend-text h5 {
+    font-size: 35px;
+  }
   .feature-text{
-    left: 270px;
-    width: 400px;
+    left: 505px;
+    width: 580px;
   }
   .nearby-text{
-    left: 330px;
-    bottom: 180px;
+    left: 529px;
+    bottom: 210px;
+    width: 600px;
   }
   .friend-text{
-    right: 160px;
+    right: 350px;
     top: 420px;
+    width: 600px;
   }
-} */
+}

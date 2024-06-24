@@ -40,7 +40,7 @@ body{
     font-family: "SFProdisplay-medium";
     font-size: 18px;
     cursor: pointer;
-    transform: all 0.3s;
+    transition: all 0.4s ;
 }
 .nav-bar p:hover{
     color: #5a5547;
@@ -285,6 +285,9 @@ body{
 .contact-bg{
     background-image: url(../Images/contact-bg.png);
     background-size: 100% 100%;
+}
+.contact-bg .contact-info{
+    padding-right: 40px;
 }
 .contact-bg h1,
 .contact-bg label{

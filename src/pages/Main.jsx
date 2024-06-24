@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 import Navbar from "../components/common/Navbar";
 import Home from "./Home";
@@ -12,16 +13,27 @@ import Contact from "./Contact";
 import Footer from "../components/common/Footer";
 
 function Main() {
+  const location = useLocation();
+
   const handleScroll = (sectionId) => {
-    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
   };
+
+  useEffect(() => {
+    if (location.state && location.state.section) {
+      handleScroll(location.state.section);
+    }
+  }, [location]);
+
   return (
     <div>
       <Navbar handleScroll={handleScroll} />
       <div id="home">
         <Home />
       </div>
-
       <div id="about">
         <About />
       </div>

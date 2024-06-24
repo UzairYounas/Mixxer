@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import logo from "../../assets/Images/logo.png";
 import {
   FaArrowRight,
@@ -12,7 +12,7 @@ import { RiInstagramFill } from "react-icons/ri";
 import mail from "../../assets/Images/icons/mail.svg";
 import line from "../../assets/Images/icons/line.svg";
 
-function Footer({ setToggleState, handleScroll }) {
+function Footer({ setToggleState }) {
   const navigate = useNavigate();
 
   const handleClick = (step, toggleState) => {
@@ -22,6 +22,10 @@ function Footer({ setToggleState, handleScroll }) {
     if (setToggleState) {
       setToggleState(toggleState);
     }
+  };
+
+  const handleScroll = (section) => {
+    navigate("/", { state: { section } });
   };
 
   return (
@@ -132,7 +136,6 @@ function Footer({ setToggleState, handleScroll }) {
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>

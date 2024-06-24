@@ -7,7 +7,7 @@ function Contact() {
     <div className="contact-bg">
       <div className="container">
         <div className="row" style={{ padding: "150px 0 60px 0" }}>
-          <div className="col-md-6 pe-lg-5 pe-md-5 pe-sm-none pe-none">
+          <div className="col-md-6 contact-info">
             <h1>Have a question or need any assistance?</h1>
             <p className="mb-5">
               We're here to help! Please fill out the form below, and we'll get

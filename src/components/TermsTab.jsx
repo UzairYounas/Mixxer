@@ -67,6 +67,7 @@ function TermsTab() {
             </div>
           </div>
           <div className="col-md-8 pt-lg-0 pt-md-0 pt-sm-5 pt-5">
+
             <div className={toggleState === 1 ? "d-block " : "d-none"}>
               <h1 className="mb-4">TERMS OF SERVICES</h1>
               <div className="term-text d-flex flex-column gap-4">
@@ -247,6 +248,7 @@ function TermsTab() {
                 </div>
               ))}
             </div>
+            
           </div>
         </div>
       </div>
