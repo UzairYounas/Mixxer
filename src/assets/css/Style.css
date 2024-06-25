@@ -199,7 +199,7 @@ body{
 
 /* ================= Discover Design ================= */
 .disc-text img{
-    filter: drop-shadow(0 0 20px #abb2c6);
+    filter: drop-shadow(0 0 6px #abb2c6);
 }
 .disc-text h5{
     color: #655F5F;

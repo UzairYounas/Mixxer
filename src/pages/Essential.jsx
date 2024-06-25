@@ -44,8 +44,9 @@ function Essential() {
               Seamless Socializing, Unforgettable Experiences
             </h1>
 
+            <div className="d-flex flex-column gap-xl-5 gap-lg-4 gap-md-4 gap-sm-4 gap-3">
             {items.map((val, index) => (
-              <div className="d-flex gap-3 mb-4">
+              <div className="d-flex gap-3">
                 <FaCheck style={{ color: "#988265", fontSize: '24px', width: '60px' }} />
                 <div className="d-flex flex-column">
                   <h5>{val.title}</h5>
@@ -53,6 +54,7 @@ function Essential() {
                 </div>
               </div>
             ))}
+            </div>
           </div>
         </div>
       </div>

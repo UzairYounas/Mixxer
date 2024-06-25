@@ -265,7 +265,7 @@ function Discover() {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row mb-4">
           <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
             <div className="d-flex flex-column gap-3">
               <h2>Your Social Hub</h2>
