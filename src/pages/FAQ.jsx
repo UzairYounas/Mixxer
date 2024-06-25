@@ -9,7 +9,7 @@ function FAQ() {
 
         <div className="col-md-6">
 
-          <Accordion defaultActiveKey="0">
+          <Accordion>
             <Accordion.Item className="mb-4" eventKey="0">
               <Accordion.Header>
                 <span>1</span>What is Mixxer and how can it enhance my social
@@ -58,7 +58,7 @@ function FAQ() {
 
         <div className="col-md-6">
 
-          <Accordion defauhltActiveKey="0">
+          <Accordion>
             <Accordion.Item className="mb-4" eventKey="5">
               <Accordion.Header>
                 <span>2</span>Are there any cost associated with using Mixxer?

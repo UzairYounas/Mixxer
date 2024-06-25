@@ -26,12 +26,12 @@ function Contact() {
     const newErrors = { ...errors };
  
     if (!formData.fullName.trim()) {
-      newErrors.fullName = "Name is required";
+      newErrors.fullName = "Name must required";
       formValid = false;
     }
 
     if (!formData.email.trim()) {
-      newErrors.email = "Email required";
+      newErrors.email = "Email must required";
       formValid = false;
     } else if (!isValidEmail(formData.email)) {
       newErrors.email = "Invalid email format";
@@ -60,7 +60,7 @@ function Contact() {
   return (
     <div className="contact-bg">
       <div className="container">
-        <div className="row" style={{ padding: "150px 0 60px 0" }}>
+        <div className="row">
           <div className="col-md-6 contact-info">
             <h1>Have a question or need any assistance?</h1>
             <p className="mb-5">

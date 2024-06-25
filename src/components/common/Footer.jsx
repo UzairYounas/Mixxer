@@ -122,11 +122,11 @@ function Footer({ setToggleState }) {
             <h4>Get in Touch</h4>
             <img src={line} alt="line" />
             <div className="d-flex gap-4 mb-5 mt-4">
-              <FaFacebookF />
-              <RiInstagramFill />
-              <FaTwitter />
-              <FaYoutube />
-              <FaLinkedinIn />
+              <FaFacebookF className="social-icon" />
+              <RiInstagramFill className="social-icon" />
+              <FaTwitter className="social-icon" />
+              <FaYoutube className="social-icon" />
+              <FaLinkedinIn className="social-icon" />
             </div>
             <div className="d-flex align-items-center gap-3">
               <img src={mail} alt="mail" />

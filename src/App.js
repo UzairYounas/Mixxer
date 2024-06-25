@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './assets/css/Style.css';
 import './assets/css/Responsive.css'
+import './assets/css/FeatureResponsive.css'
 
 import {
   createBrowserRouter,

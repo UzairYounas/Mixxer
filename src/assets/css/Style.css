@@ -106,7 +106,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 220px;
-    margin-top: 240px;
+    margin-top: 250px;
 }
 .about-bg h3{
     font-family: "Madetommy-medium";
@@ -164,8 +164,8 @@ body{
     color: #FFFFFF;
 }
 .feature-text{
-    left: 165px;
-    width: 412px;
+    left: 198px;
+    width: 380px;
     top: 244px;
 }
 .feature-text h5,
@@ -306,6 +306,9 @@ body{
 .contact-bg .contact-info{
     padding-right: 40px;
 }
+.contact-bg .row{
+    padding: 150px 0 60px;
+}
 .contact-bg h1,
 .contact-bg label{
     font-family: "Madetommy-medium";
@@ -363,6 +366,14 @@ body{
 .icons small{
     font-family: "Madetommy-regular";
     color: #7A7474;
+}
+.icons .social-icon{
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.icons .social-icon:hover{
+    color: #736C54;
 }
 
 /* ================ Terms Design ================= */

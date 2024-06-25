@@ -147,10 +147,12 @@ function Discover() {
       </div>
 
       <div className="container">
-        <div className="row" style={{marginTop: '100px', marginBottom: '100px'}}>
-          
+        <div
+          className="row"
+          style={{ marginTop: "100px", marginBottom: "100px" }}
+        >
           <div className="col-md-6 mb-5">
-            <img src={discover1} style={{width: '80%'}} />
+            <img src={discover1} style={{ width: "80%" }} />
           </div>
           <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
             <div className="d-flex flex-column gap-3">
@@ -183,8 +185,18 @@ function Discover() {
               ))}
             </div>
           </div>
+        </div>
 
-          <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
+        <div className="row">
+          <div className="col-md-6 mb-5 order-md-2">
+            <img
+              src={discover2}
+              style={{ width: "80%" }}
+              alt="Discover Image"
+            />
+          </div>
+
+          <div className="col-md-6 d-flex flex-column align-items-center justify-content-center order-md-1">
             <div className="d-flex flex-column gap-3">
               <h2>Plan Your Perfect Mixxer</h2>
               <p>
@@ -197,13 +209,14 @@ function Discover() {
 
             <div className="row mt-5">
               {data.map((det, index) => (
-                <div className="col-md-6 mb-5">
+                <div key={index} className="col-md-6 mb-5">
                   <div className="d-flex gap-3">
                     <div className="d-flex flex-column gap-3">
                       <div className="d-flex align-items-center gap-2">
                         <img
                           src={det.img}
                           style={{ width: "30px", height: "30px" }}
+                          alt={det.title}
                         />
                         <p className="mb-0">{det.title}</p>
                       </div>
@@ -214,12 +227,11 @@ function Discover() {
               ))}
             </div>
           </div>
-          <div className="col-md-6 mb-5">
-            <img src={discover2} style={{width: '80%'}} />
-          </div>
+        </div>
 
+        <div className="row">
           <div className="col-md-6 mb-5">
-            <img src={discover3} style={{width: '80%'}} />
+            <img src={discover3} style={{ width: "80%" }} />
           </div>
           <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
             <div className="d-flex flex-column gap-3">
@@ -251,7 +263,9 @@ function Discover() {
               ))}
             </div>
           </div>
+        </div>
 
+        <div className="row">
           <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
             <div className="d-flex flex-column gap-3">
               <h2>Your Social Hub</h2>
@@ -282,11 +296,9 @@ function Discover() {
             </div>
           </div>
           <div className="col-md-6">
-            <img src={discover4} style={{width: '80%'}} />
+            <img src={discover4} style={{ width: "80%" }} />
           </div>
-
         </div>
-
       </div>
     </div>
   );

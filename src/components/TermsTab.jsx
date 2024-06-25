@@ -30,6 +30,8 @@ function TermsTab() {
         : "30px",
   };
 
+  localStorage.setItem("termUrl", window.location.href);
+
   return (
     <>
       <Navbar />

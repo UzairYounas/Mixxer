@@ -9,7 +9,7 @@ function Started() {
   return (
     <div className="container start-bg">
       <div className="row">
-        <div className="col-md-6 col-sm-6 col-6 d-flex justify-content-center align-items-center">
+        <div className="col-md-6 col-sm-6 col-6 d-flex justify-content-center align-items-center p-0">
           <img src={starter} className="w-100" />
         </div>
 

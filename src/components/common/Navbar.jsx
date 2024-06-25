@@ -8,57 +8,50 @@ import { IoClose } from "react-icons/io5";
 function Navbar({ handleScroll }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [status, setStatus] = useState(false);
+  const termUrl = window.location.href === localStorage.getItem("termUrl");
 
   useEffect(() => {
     const onScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const navbarClass =
+    isScrolled || termUrl ? "bg-white shadow" : "bg-transparent";
+  const textClass = isScrolled || termUrl ? "text-secondary" : "text-white";
+
   return (
     <>
       <nav
-        className={`nav-bar ${
-          isScrolled ? "bg-white shadow" : "bg-transparent"
-        } fixed-top py-lg-3 py-md-2 py-sm-0 py-0`}
+        className={`nav-bar ${navbarClass} fixed-top py-lg-3 py-md-2 py-sm-0 py-0`}
       >
         <div className="container d-flex align-items-center justify-content-between">
-          <img src={isScrolled ? logo : whitelogo} alt="LOGO" />
+          <img src={isScrolled || termUrl ? logo : whitelogo} alt="LOGO" />
           <div
-            className={`d-lg-flex d-md-flex d-sm-none d-none align-items-center gap-lg-5 gap-md-4 gap-sm-4 gap-4 ${
-              isScrolled ? "text-secondary" : "text-white"
-            }`}
+            className={`d-lg-flex d-md-flex d-sm-none d-none align-items-center gap-lg-5 gap-md-4 gap-sm-4 gap-4 ${textClass}`}
           >
-            <p className="mb-0" onClick={() => handleScroll("home")}>
-              Home
-            </p>
-            <p className="mb-0" onClick={() => handleScroll("feature")}>
-              Feature
-            </p>
-            <p className="mb-0" onClick={() => handleScroll("about")}>
-              About
-            </p>
-            <p className="mb-0" onClick={() => handleScroll("faq")}>
-              FAQ'S
-            </p>
-            <p className="mb-0" onClick={() => handleScroll("contact")}>
-              Contact
-            </p>
+            {["home", "feature", "about", "faq", "contact"].map(
+              (section, index) => (
+                <p
+                  key={index}
+                  className="mb-0"
+                  onClick={() => handleScroll(section)}
+                >
+                  {section.charAt(0).toUpperCase() + section.slice(1)}
+                </p>
+              )
+            )}
           </div>
-
           <FaBars
-            className={`d-lg-none d-md-none d-sm-flex d-flex ${
-              isScrolled ? "text-secondary" : "text-white"
-            } mt-3 h3`}
+            className={`d-lg-none d-md-none d-sm-flex d-flex ${textClass} mt-3 h3`}
             onClick={() => setStatus(true)}
           />
         </div>
       </nav>
 
-      {status ? (
+      {status && (
         <div
           className="d-flex flex-column gap-4 p-4 fixed-top text-white"
           style={{ backgroundColor: "#7E6C54" }}
@@ -67,68 +60,22 @@ function Navbar({ handleScroll }) {
             <img src={whitelogo} alt="LOGO" />
             <IoClose className="h2" onClick={() => setStatus(false)} />
           </div>
-          <div className="d-flex flex-column">
-            <p
-              onClick={() => {
-                handleScroll("home");
-                setStatus(false);
-              }}
-            >
-              Home
-            </p>
-            <hr className="side-hr" />
-          </div>
-
-          <div className="d-flex flex-column">
-            <p
-              onClick={() => {
-                handleScroll("feature");
-                setStatus(false);
-              }}
-            >
-              Features
-            </p>
-            <hr className="side-hr" />
-          </div>
-
-          <div className="d-flex flex-column">
-            <p
-              onClick={() => {
-                handleScroll("about");
-                setStatus(false);
-              }}
-            >
-              About
-            </p>
-            <hr className="side-hr" />
-          </div>
-
-          <div className="d-flex flex-column">
-            <p
-              onClick={() => {
-                handleScroll("faq");
-                setStatus(false);
-              }}
-            >
-              FAQ'S
-            </p>
-            <hr className="side-hr" />
-          </div>
-
-          <div className="d-flex flex-column">
-            <p
-              onClick={() => {
-                handleScroll("contact");
-                setStatus(false);
-              }}
-            >
-              Contact
-            </p>
-            <hr className="side-hr" />
-          </div>
+          {["home", "feature", "about", "faq", "contact"].map(
+            (section, index) => (
+              <div key={index} className="d-flex flex-column">
+                <p
+                  onClick={() => {
+                    handleScroll(section);
+                    setStatus(false);
+                  }}
+                >
+                  {section.charAt(0).toUpperCase() + section.slice(1)}
+                </p>
+                <hr className="side-hr" />
+              </div>
+            )
+          )}
         </div>
-      ) : (
-        ""
       )}
     </>
   );
