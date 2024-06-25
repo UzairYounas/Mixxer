@@ -152,7 +152,7 @@ function Discover() {
           style={{ marginTop: "100px", marginBottom: "100px" }}
         >
           <div className="col-md-6 mb-5">
-            <img src={discover1} style={{ width: "80%" }} />
+            <img src={discover1} alt="discover" style={{ width: "80%" }} />
           </div>
           <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
             <div className="d-flex flex-column gap-3">
@@ -192,7 +192,7 @@ function Discover() {
             <img
               src={discover2}
               style={{ width: "80%" }}
-              alt="Discover Image"
+              alt="discover"
             />
           </div>
 
@@ -231,7 +231,7 @@ function Discover() {
 
         <div className="row">
           <div className="col-md-6 mb-5">
-            <img src={discover3} style={{ width: "80%" }} />
+            <img src={discover3} alt="discover" style={{ width: "80%" }} />
           </div>
           <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
             <div className="d-flex flex-column gap-3">
@@ -296,7 +296,7 @@ function Discover() {
             </div>
           </div>
           <div className="col-md-6">
-            <img src={discover4} style={{ width: "80%" }} />
+            <img src={discover4} alt="discover" style={{ width: "80%" }} />
           </div>
         </div>
       </div>

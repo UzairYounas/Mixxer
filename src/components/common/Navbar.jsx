@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 import whitelogo from "../../assets/Images/whitelogo.png";
 import logo from "../../assets/Images/logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaBars } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
 
-function Navbar({ handleScroll }) {
+function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [status, setStatus] = useState(false);
   const termUrl = window.location.href === localStorage.getItem("termUrl");
+  const navigate = useNavigate();
 
   useEffect(() => {
     const onScroll = () => {
@@ -17,6 +19,10 @@ function Navbar({ handleScroll }) {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  const handleScroll = (section) => {
+    navigate("/", { state: { section } });
+  };
 
   const navbarClass =
     isScrolled || termUrl ? "bg-white shadow" : "bg-transparent";
@@ -32,7 +38,7 @@ function Navbar({ handleScroll }) {
           <div
             className={`d-lg-flex d-md-flex d-sm-none d-none align-items-center gap-lg-5 gap-md-4 gap-sm-4 gap-4 ${textClass}`}
           >
-            {["home", "feature", "about", "faq", "contact"].map(
+            {["home", "about", "feature", "faq", "contact"].map(
               (section, index) => (
                 <p
                   key={index}
@@ -60,7 +66,7 @@ function Navbar({ handleScroll }) {
             <img src={whitelogo} alt="LOGO" />
             <IoClose className="h2" onClick={() => setStatus(false)} />
           </div>
-          {["home", "feature", "about", "faq", "contact"].map(
+          {["home", "about", "feature", "faq", "contact"].map(
             (section, index) => (
               <div key={index} className="d-flex flex-column">
                 <p

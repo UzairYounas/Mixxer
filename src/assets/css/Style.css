@@ -106,7 +106,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 220px;
-    margin-top: 250px;
+    margin-top: 300px;
 }
 .about-bg h3{
     font-family: "Madetommy-medium";
@@ -198,7 +198,7 @@ body{
 }
 
 /* ================= Discover Design ================= */
-.disc-text img{
+.disc-text img[alt = "discover"]{
     filter: drop-shadow(0 0 6px #abb2c6);
 }
 .disc-text h5{
@@ -212,7 +212,7 @@ body{
 }
 .disc-text p{
     font-family: "SFProdisplay-medium";
-    color: #988265;
+    color: #655f5f;
 }
 .disc-text small{
     font-family: "Madetommy-regular";

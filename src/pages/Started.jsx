@@ -7,7 +7,7 @@ import starter from "../assets/Images/starter.png";
 
 function Started() {
   return (
-    <div className="container start-bg">
+    <div className="container start-bg mt-5">
       <div className="row">
         <div className="col-md-6 col-sm-6 col-6 d-flex justify-content-center align-items-center p-0">
           <img src={starter} className="w-100" />

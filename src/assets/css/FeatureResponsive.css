@@ -1,3 +1,84 @@
+
+@media (min-width: 1700px) {
+  .feature-text{
+      left: 244px;
+      width: 440px;
+      top: 299px;
+  }
+  .nearby-text{
+      left: 235px;
+      bottom: 200px;
+      width: 434px;
+  }
+  .friend-text{
+      right: 63px;
+      top: 454px;
+      width: 498px;
+  }
+  .home-bg .text-white{
+    padding-top: 255px
+  }
+  .home-bg h1{
+    font-size: 50px;
+  }
+  .home-bg p{
+    font-size: 25px;
+  }
+}
+@media (min-width: 1900px) {
+  .feature-text{
+      left: 319px;
+      top: 300px;
+  }
+  .nearby-text{
+      left: 308px;
+      bottom: 241px;
+  }
+  .friend-text{
+      right: 130px;
+      top: 510px;
+  }
+}
+@media (min-width: 2200px) {
+  .feature-text{
+      left: 400px;
+      top: 350px;
+  }
+  .nearby-text{
+      left: 392px;
+  }
+  .friend-text{
+      right: 226px;
+      top: 565px;
+  }
+}
+@media (min-width: 2560px) {
+  .feature-text p,
+.nearby-text p,
+.friend-text p {
+  font-size: 25px;
+}
+.feature-text h5,
+.nearby-text h5,
+.friend-text h5 {
+  font-size: 35px;
+}
+.feature-text{
+  left: 531px;
+  width: 580px;
+  top: 258px;
+}
+.nearby-text{
+  left: 529px;
+  bottom: 210px;
+  width: 600px;
+}
+.friend-text{
+  right: 350px;
+  top: 420px;
+  width: 600px;
+}
+}
 @media (max-width: 1024px) {
     .friend-text {
         width: 361px;
@@ -166,76 +247,5 @@
   .friend-text {
     width: 95px;
     top: 200px;
-  }
-}
-@media (min-width: 1700px) {
-    .feature-text{
-        left: 244px;
-        width: 440px;
-        top: 299px;
-    }
-    .nearby-text{
-        left: 235px;
-        bottom: 200px;
-        width: 434px;
-    }
-    .friend-text{
-        right: 63px;
-        top: 454px;
-        width: 498px;
-    }
-}
-@media (min-width: 1700px) {
-    .feature-text{
-        left: 319px;
-        top: 322px;
-    }
-    .nearby-text{
-        left: 308px;
-        bottom: 241px;
-    }
-    .friend-text{
-        right: 130px;
-        top: 510px;
-    }
-}
-@media (min-width: 2200px) {
-    .feature-text{
-        left: 400px;
-        top: 350px;
-    }
-    .nearby-text{
-        left: 392px;
-    }
-    .friend-text{
-        right: 226px;
-        top: 565px;
-    }
-}
-@media (min-width: 2560px) {
-    .feature-text p,
-  .nearby-text p,
-  .friend-text p {
-    font-size: 25px;
-  }
-  .feature-text h5,
-  .nearby-text h5,
-  .friend-text h5 {
-    font-size: 35px;
-  }
-  .feature-text{
-    left: 531px;
-    width: 580px;
-    top: 258px;
-  }
-  .nearby-text{
-    left: 529px;
-    bottom: 210px;
-    width: 600px;
-  }
-  .friend-text{
-    right: 350px;
-    top: 420px;
-    width: 600px;
   }
 }
