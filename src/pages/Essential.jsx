@@ -36,21 +36,21 @@ function Essential() {
     <div>
       <div className="container" style={{marginTop: '80px', marginBottom: '80px'}}>
         <div className="row essen">
-          <div className="col-md-6">
-            <img src={essential} style={{width: '90%'}}/>
+          <div className="col-md-6 text-align-center d-flex align-items-center justify-content-center ">
+            <img src={essential} />
           </div>
-          <div className="col-md-6 mt-lg-none mt-md-none mt-sm-5 mt-5">
-            <h1 className="mb-5">
+          <div className="col-md-6 mt-lg-0 mt-md-0 mt-sm-4 mt-3">
+            <h2 className="mb-lg-4 mb-md-3 mb-sm-3 mb-3">
               Seamless Socializing, Unforgettable Experiences
-            </h1>
+            </h2>
 
-            <div className="d-flex flex-column gap-xl-5 gap-lg-4 gap-md-4 gap-sm-4 gap-3">
+            <div className="d-flex flex-column gap-xl-5 gap-lg-4 gap-md-3 gap-sm-3 gap-2">
             {items.map((val, index) => (
               <div className="d-flex gap-3">
                 <FaCheck style={{ color: "#988265", fontSize: '24px', width: '60px' }} />
                 <div className="d-flex flex-column">
-                  <h5>{val.title}</h5>
-                  <p className="mb-0">{val.description}</p>
+                  <p className="mb-0">{val.title}</p>
+                  <small className="mb-0">{val.description}</small>
                 </div>
               </div>
             ))}

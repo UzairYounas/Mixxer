@@ -39,6 +39,9 @@ body{
 
 /* ============== NavBar Design ================== */
 
+.nav-bar{
+    transition: all 0.3s;
+}
 .nav-bar p{
     font-family: "SFProdisplay-medium";
     font-size: 18px;
@@ -127,19 +130,18 @@ body{
 }
 
 /* ================ Essential Design ================ */
-.essen h1{
-    font-family: "SFProdisplay-bold";
-    color: #473D2F;
+.essen img{
+    width: 70%;
 }
 .essen h2{
     font-family: "SFProdisplay-bold";
-    color: #7E6C54;
+    color: #473D2F;
 }
-.essen h5{
+.essen p{
     font-family: "Madetommy-medium";
     color: #342D23;
 }
-.essen p{
+.essen small{
     font-family: "Madetommy-regular";
     color: #342D23;
 }
@@ -184,7 +186,7 @@ body{
 }
 .nearby-text{
     left: 195px;
-    bottom: 155px;
+    bottom: 123px;
     width: 360px;
 }
 .friend-text{

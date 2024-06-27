@@ -6,7 +6,7 @@ import exportphone from "../assets/Images/explore-phone.png";
 function Explore() {
   return (
     <div className="explore-bg">
-      <div className="p-5 position-relative">
+      <div className="p-5 position-relative pb-0">
         <h1>MIXXER ESSENTIALS:</h1>
         <h1>YOUR GUIDE TO THE HOME PAGE</h1>
         <img src={exportphone} />

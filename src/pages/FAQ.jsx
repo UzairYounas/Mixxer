@@ -6,6 +6,7 @@ function FAQ() {
     <div className="container mt-5 mb-5 accordian">
       <h1 className="text-center">Frequently asked questions</h1>
       <div className="row mt-5">
+        
         <div className="col-md-6">
           <Accordion>
             <Accordion.Item className="mb-4" eventKey="0">

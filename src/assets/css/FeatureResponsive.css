@@ -7,7 +7,7 @@
   }
   .nearby-text{
       left: 235px;
-      bottom: 200px;
+      bottom: 153px;
       width: 434px;
   }
   .friend-text{
@@ -32,7 +32,7 @@
   }
   .nearby-text{
       left: 308px;
-      bottom: 241px;
+      bottom: 174px;
   }
   .friend-text{
       right: 130px;
@@ -46,12 +46,14 @@
   }
   .nearby-text{
       left: 392px;
+      bottom: 202px;
   }
   .friend-text{
       right: 226px;
       top: 565px;
   }
 }
+
 @media (min-width: 2560px) {
   .feature-text p,
 .nearby-text p,
@@ -70,7 +72,7 @@
 }
 .nearby-text{
   left: 529px;
-  bottom: 210px;
+  bottom: 165px;
   width: 600px;
 }
 .friend-text{
@@ -79,6 +81,7 @@
   width: 600px;
 }
 }
+
 @media (max-width: 1024px) {
     .friend-text {
         width: 361px;
@@ -87,7 +90,7 @@
       }
       .nearby-text {
         left: 45px;
-        bottom: 135px;
+        bottom: 96px;
         width: 430px;
       }
       .feature-text {
@@ -98,7 +101,7 @@
 }
 @media (max-width: 830px) {
     .nearby-text {
-        bottom: 139px;
+        bottom: 100px;
         width: 286px;
         left: 17px;
       }
@@ -118,7 +121,7 @@
         top: 86px;
       }
       .nearby-text {
-        bottom: 140px;
+        bottom: 95px;
         width: 250px;
       }
       .friend-text {
@@ -139,7 +142,7 @@
     }
     .nearby-text {
       width: 220px;
-      bottom: 130px;
+      bottom: 88px;
     }
     .feature-text {
       width: 225px;
@@ -166,7 +169,7 @@
     }
     .nearby-text {
       width: 190px;
-      bottom: 126px;
+      bottom: 87px;
       left: 6px;
     }
     .feature-text {
@@ -195,7 +198,7 @@
   }
   .nearby-text {
     width: 149px;
-    bottom: 112px;
+    bottom: 64px;
 }
   .feature-text {
     width: 163px;
@@ -223,7 +226,7 @@
     }
     .nearby-text{
       width: 125px;
-      bottom: 100px;
+      bottom: 52px;
     }
     .friend-text{
       width: 108px;
@@ -242,7 +245,7 @@
   }
   .nearby-text {
     width: 116px;
-    bottom: 90px;
+    bottom: 42px;
   }
   .feature-text {
     width: 116px;
