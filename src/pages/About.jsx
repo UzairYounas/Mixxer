@@ -9,13 +9,13 @@ function About() {
   return (
     <>
       <div className="about-bg">
-        <div className="container py-5">
+        <div className="container py-lg-5 py-md-5 py-sm-3 py-3">
           <div className="row">
             <div className="col-md-5">
 
               <div className="mt-4">
                 <img src={abimg1} className="w-100 d-lg-block d-md-block d-sm-none d-none" />
-                <div className="d-flex flex-column gap-3 mt-5">
+                <div className="d-flex flex-column gap-3 mt-lg-5 mt-md-5 mt-sm-0 mt-0">
                   <h3>About Mixxer</h3>
                   <p className="mb-0">
                     Mixxer is a vibrant social app designed to enhance your
