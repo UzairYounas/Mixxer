@@ -1,7 +1,6 @@
 import React from "react";
 
 import exportphone from "../assets/Images/explore-phone.png";
-// import exportsmall from '../assets/Images/explore-phone-small.png'
 
 function Explore() {
   return (

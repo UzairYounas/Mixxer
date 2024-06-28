@@ -50,12 +50,6 @@
     width: 100%;
   }
 }
-/* @media (min-width: 768px) {
-  .container {
-    max-width: 720px !important;
-  }
-} */
-
 @media (max-width: 768px) {
   .home-bg img {
     width: 130px;

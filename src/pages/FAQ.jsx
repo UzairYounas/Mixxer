@@ -10,6 +10,7 @@ function FAQ() {
       <div className="feed-container text-black mt-5">
         {combinedData.faq.map((val, index) => (
           <div key={index}>
+
             <Accordion>
               <Accordion.Item className="mb-4" eventKey="0">
                 <Accordion.Header style={{ height: (index === 1 || index === 8) ? "72px" : "" }}>
@@ -19,6 +20,7 @@ function FAQ() {
                 <Accordion.Body>{val.answer}</Accordion.Body>
               </Accordion.Item>
             </Accordion>
+            
           </div>
         ))}
       </div>
