@@ -102,6 +102,10 @@ body {
   font-family: "SFProdisplay-bold";
   color: #ffffff;
   width: 175px;
+  transition: all 0.3s ease;
+}
+.home-bg button:hover{
+    background-color: #a29c7c;
 }
 .home-bg img {
   width: 180px;
@@ -348,6 +352,9 @@ body {
   color: #ffffff;
   padding: 8px;
   transition: all 0.3s ease;
+}
+.contact-bg button:hover{
+    background-color: #a29c7c;
 }
 .auth-input:-webkit-autofill {
   box-shadow: 0 0 0px 1000px #ffffff inset !important;

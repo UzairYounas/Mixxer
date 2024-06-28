@@ -27,6 +27,7 @@ function Started() {
           </div>
           <p>*Experience the next level of social networking.</p>
         </div>
+        
       </div>
     </div>
   );

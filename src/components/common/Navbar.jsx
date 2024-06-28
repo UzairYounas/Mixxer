@@ -27,10 +27,6 @@ function Navbar() {
   const [navbarClass, setNavbarClass] = useState("");
   const [textClass, setTextClass] = useState("");
 
-  // const navbarClass =
-  // isScrolled || termUrl ? "bg-white shadow" : "bg-transparent";
-  // const textClass = isScrolled || termUrl ? "text-secondary" : "text-white";
-
   useEffect(() => {
     if (isScrolled && !show) {
       setNavbarClass("bg-white shadow");

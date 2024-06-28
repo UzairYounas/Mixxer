@@ -32,6 +32,7 @@ function Footer({ setToggleState }) {
     <div className="footer-bg">
       <div className="container" style={{ marginTop: "90px" }}>
         <div className="row pb-4" style={{ paddingTop: "100px" }}>
+          
           <div className="col-md-4 pe-4 mb-4">
             <div className="d-flex flex-column gap-4">
               <img src={logo} alt="LOGO" style={{ width: "200px" }} />
