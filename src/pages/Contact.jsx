@@ -24,7 +24,7 @@ function Contact() {
     e.preventDefault();
     let formValid = true;
     const newErrors = { ...errors };
- 
+
     if (!formData.fullName.trim()) {
       newErrors.fullName = "Name must required";
       formValid = false;
@@ -79,6 +79,7 @@ function Contact() {
                   )}
                 </div>
                 <input
+                  className="auth-input"
                   type="text"
                   name="fullName"
                   placeholder="Write name"
@@ -95,6 +96,7 @@ function Contact() {
                   )}
                 </div>
                 <input
+                  className="auth-input"
                   type="text"
                   name="email"
                   placeholder="example@email.com"
@@ -111,6 +113,7 @@ function Contact() {
                   )}
                 </div>
                 <textarea
+                  className="auth-input"
                   name="message"
                   placeholder="write here..."
                   value={formData.message}

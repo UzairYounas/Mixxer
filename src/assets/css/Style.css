@@ -253,6 +253,13 @@ body{
 
 /* ================== FAQ'S Design =================== */
 
+
+.feed-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
 .accordian h1{
     font-family: "Madetommy-medium";
     color: #000000;
@@ -344,6 +351,12 @@ body{
     padding: 8px;
     transition: all 0.3s ease;
 }
+.auth-input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset !important;
+    box-shadow: 0 0 0px 1000px #FFFFFF inset !important;
+    -webkit-text-fill-color: #000000 !important;
+  }
+
 
 /* ================= Footer Design =============== */
 .footer-bg{

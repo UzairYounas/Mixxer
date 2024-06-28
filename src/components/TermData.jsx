@@ -137,6 +137,59 @@ const combinedData = {
             title: 'Update',
             description: 'Should we update, amend, or make any changes to this document, those changes will be prominently posted here.',
         }
+    ],
+
+    faq: [
+       {
+        num: "1",
+        question: "What is Mixxer and how can it enhance my social experience by helpingme discover and join meetups?",
+        answer: "Mixxer simplifies meeting friends or making new connections by streamlining the planning process. There is no need to swipe for connections or navigate group chats. Simply create a Mixxer with all the outing details for others to see, and wait for them to join the fun!"
+       },
+       {
+        num: "2",
+        question: "How do I signup for Mixxer?",
+        answer: "You can sign up for Mixxer by downloading the app and following the prompts to create a profile."
+       },
+       {
+        num: "3",
+        question: "How do I find Mixxers near me using the app?",
+        answer: "You can find Mixxers near you on the Home Page feed under “Recommendations”."
+       },
+       {
+        num: "4",
+        question: "What should I do If I encounter inappropriate content?",
+        answer: "Use the “Report” button to notify us of any inappropriate content, and we will review the profile. Any person displaying inappropriate content will be removed from the app."
+       },
+       {
+        num: "5",
+        question: "Is it possible to create my own Mixxers?",
+        answer: "Yes, anyone can create their own Mixxers! Click the “+” button in the center of the bottom menu to get started."
+       },
+       {
+        num: "6",
+        question: "Are there any cost associated with using Mixxer?",
+        answer: "Mixxer is completely free to use and offers all features! Users have the option to upgrade to a Standard Plan ($4.99) or a Premium Plan ($9.99), depending on their preferred level of activity."
+       },
+       {
+        num: "7",
+        question: "How can I invite friends to a Mixxer?",
+        answer: "When creating a Mixxer, select the “Invite” button to invite your friends on the app. Ensure your friends have a Mixxer profile so they can see the details!"
+       },
+       {
+        num: "8",
+        question: "Can I see who is attending a Mixxer I'm interested in?",
+        answer: "Yes, you can see the profile photo of any Mixxer attendee. You can then click on their profile photo for more information."
+       },
+       {
+        num: "9",
+        question: "How do I update my profile information?",
+        answer: "To update your profile information, use the menu button in the top right corner of your profile."
+       },
+       {
+        num: "10",
+        question: "How do I delete my Mixxer account if I no longer wish to use the app?",
+        answer: "To delete your account, go to Settings, Manage Profile, then Delete Profile. This action cannot be undone."
+       },
     ]
   };
   
