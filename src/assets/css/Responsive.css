@@ -166,7 +166,7 @@
     font-size: 20px;
   }
   .contact-bg .contact-info {
-    padding-right: 0px;
+    padding-right: 10px;
   }
 }
 @media (max-width: 425px) {
